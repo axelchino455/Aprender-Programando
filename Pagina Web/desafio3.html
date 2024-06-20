@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce de PCs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos.css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="../imagenes/logo de navegación.jpg" width="50" height="50" class="d-inline-block align-top" alt="Logo">
+                    Tienda Tec
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="desafio3.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://uranostream.com/categoria-producto/pc-armadas/?gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrDzu_wZVTfmQD1_ethOPsUqrTkuUZMChm-Ak071yqmb6LULxNFUqHRoCs8gQAvD_BwE" target="_blank">PC armadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.slot-one.com.ar/?gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrDmFXfH8X2Qc81jwm2kjMf5IlVdqEQvfZyB6JFb8sGwM0IPMsMsSkxoCWocQAvD_BwE" target="_blank">Perifericos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.musimundo.com/informatica/monitores-y-pantallas/c/105?gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrOJfCdkQylNgAB4EYyKZ_Qm8BCjQ-I2s_DHGukcxkQlKF1fdGWu1axoCDfMQAvD_BwE" target="_blank">Monitores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../imagenes/PC1.png" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/PC2.jpeg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/PC3.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <section class="container mt-5">
+            <h2>Productos Destacados</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="../imagenes/PC1.png" class="card-img-top" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">PC 1</h5>
+                            <p class="card-text">Está pc cuenta con un procesador AMD Ryzen 7 5700G/A520M, con gráficos VEGA 8 intergrados, la mother A520m con 8GB de RAM modelo DDR4 a una frecuencia de 3200Mhz, con un disco solido SSD de 240 GB, y como Sistema Operativo el Windows 10.</p>
+                            <p id="Precio_pc1" class="card-text">Precio: $100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="../imagenes/PC2.jpeg" class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">PC 2</h5>
+                            <p class="card-text">Está PC cuenta con un gabinete, una placa madre H510 LGA1200, con un procesador INTEL CELERON G5905, 8GB de RAM con una frecuencia de 2666Mhz tecnologia DDR4, un dico SSD de 240 GB, y tiene instalado el Sitema operativo Windows 10 pro.</p>
+                            <p id="Precio_pc2" class="card-text">Precio: $120</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="../imagenes/PC3.jpg" class="card-img-top" alt="Producto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">PC 3</h5>
+                            <p class="card-text">Está PC cuenta biene con un gabinete, con la placa madre A320 SOCKET AM4, con un procesador AMD ATHOLN 3000G, tiene dos memorias RAM de 8GB cada una (16GB en total) con una frecuencia de 3200Mhz con una tecnologia DDR4, con un disco duro HDD de 1TB y una SSD de 420GB, y como Sistema Operativo Cuenta con Windows 11.</p>
+                            <p id="Precio_pc3" class="card-text">Precio: $150</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Información de Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>Dirección de la Tienda</li>
+                        <li>Teléfono: 123456789</li>
+                        <li>Email: tiendatec@example.com</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvb2qB4P1r2awZA9Od8RPi5Jz8b5ijXb5Z6AD1q1y5YIO4yV6Kxyk9b5IPT"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x
